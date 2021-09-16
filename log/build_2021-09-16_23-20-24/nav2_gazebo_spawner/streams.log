@@ -1,0 +1,37 @@
+[0.477s] Invoking command in '/home/adas/Documents/Ayush/dev/straight_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner': PYTHONPATH=/home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build install --prefix /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner --record /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/install.log --single-version-externally-managed
+[0.861s] running egg_info
+[0.861s] creating ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info
+[0.862s] writing ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+[0.862s] writing dependency_links to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+[0.863s] writing requirements to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+[0.863s] writing top-level names to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+[0.865s] writing manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[0.912s] reading manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[0.914s] writing manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[0.914s] running build
+[0.914s] running build_py
+[0.914s] creating /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build
+[0.915s] creating /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build/lib
+[0.915s] creating /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[0.915s] copying nav2_gazebo_spawner/nav2_gazebo_spawner.py -> /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[0.918s] copying nav2_gazebo_spawner/__init__.py -> /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[0.922s] running install
+[0.922s] running install_lib
+[0.922s] creating /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[0.922s] copying /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner/nav2_gazebo_spawner.py -> /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[0.922s] copying /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner/__init__.py -> /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[0.922s] byte-compiling /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner/nav2_gazebo_spawner.py to nav2_gazebo_spawner.cpython-38.pyc
+[0.922s] byte-compiling /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner/__init__.py to __init__.cpython-38.pyc
+[0.923s] running install_data
+[0.923s] creating /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/share/ament_index
+[0.923s] creating /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index
+[0.923s] creating /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[0.923s] copying resource/nav2_gazebo_spawner -> /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[0.923s] copying package.xml -> /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/share/nav2_gazebo_spawner
+[0.923s] running install_egg_info
+[0.924s] Copying ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info
+[0.925s] running install_scripts
+[0.949s] Installing nav2_gazebo_spawner script to /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[0.950s] writing list of installed files to '/home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/install.log'
+[0.988s] Invoked command in '/home/adas/Documents/Ayush/dev/straight_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/build install --prefix /home/adas/Documents/Ayush/dev/straight_ws/install/nav2_gazebo_spawner --record /home/adas/Documents/Ayush/dev/straight_ws/build/nav2_gazebo_spawner/install.log --single-version-externally-managed
