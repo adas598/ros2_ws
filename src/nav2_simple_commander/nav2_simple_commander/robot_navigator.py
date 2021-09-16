@@ -144,7 +144,8 @@ class BasicNavigator(Node):
             self.info("'NavigateToPose' action server not available, waiting...")
 
         # Computation of straight line points 
-        total_no_loops = math.sqrt((pose.pose.position.x - self.initial_pose.pose.position.x)**2 - ((pose.pose.position.y - self.initial_pose.pose.position.y)**2)/self.interpolation_resolution)
+        total_no_loops = math.sqrt(
+            (pose.pose.position.x - self.initial_pose.pose.position.x)**2 - ((pose.pose.position.y - self.initial_pose.pose.position.y)**2)/self.interpolation_resolution)
         
         x_increment = (pose.pose.position.x - self.initial_pose.pose.position.x) / total_no_loops
         y_increment = (pose.pose.position.y - self.initial_pose.pose.position.y) / total_no_loops
