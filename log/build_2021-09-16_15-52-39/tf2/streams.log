@@ -1,0 +1,121 @@
+[0.063s] Invoking command in '/home/adas/Documents/Ayush/dev/straight_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adas/Documents/Ayush/dev/straightline_ws/install/examples_tf2_py:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_simple_commander:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/adas/Documents/Ayush/dev/straight_ws/src/geometry2/tf2 -DCMAKE_INSTALL_PREFIX=/home/adas/Documents/Ayush/dev/straight_ws/install/tf2
+[0.151s] -- The C compiler identification is GNU 9.3.0
+[0.283s] -- The CXX compiler identification is GNU 9.3.0
+[0.297s] -- Check for working C compiler: /usr/bin/cc
+[0.451s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.452s] -- Detecting C compiler ABI info
+[0.650s] -- Detecting C compiler ABI info - done
+[0.667s] -- Detecting C compile features
+[0.668s] -- Detecting C compile features - done
+[0.672s] -- Check for working CXX compiler: /usr/bin/c++
+[0.898s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.899s] -- Detecting CXX compiler ABI info
+[1.077s] -- Detecting CXX compiler ABI info - done
+[1.093s] -- Detecting CXX compile features
+[1.101s] -- Detecting CXX compile features - done
+[1.160s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.160s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.160s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.546s] -- Found console_bridge_vendor: 1.2.4 (/opt/ros/foxy/share/console_bridge_vendor/cmake)
+[1.560s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.650s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.674s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.902s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.215s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.223s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.226s] -- Looking for pthread.h
+[2.400s] -- Looking for pthread.h - found
+[2.400s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.572s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.573s] -- Check if compiler accepts -pthread
+[2.745s] -- Check if compiler accepts -pthread - yes
+[2.747s] -- Found Threads: TRUE  
+[2.876s] -- Configuring done
+[2.941s] -- Generating done
+[2.944s] -- Build files have been written to: /home/adas/Documents/Ayush/dev/straight_ws/build/tf2
+[2.957s] Invoked command in '/home/adas/Documents/Ayush/dev/straight_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adas/Documents/Ayush/dev/straightline_ws/install/examples_tf2_py:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_simple_commander:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/adas/Documents/Ayush/dev/straight_ws/src/geometry2/tf2 -DCMAKE_INSTALL_PREFIX=/home/adas/Documents/Ayush/dev/straight_ws/install/tf2
+[2.959s] Invoking command in '/home/adas/Documents/Ayush/dev/straight_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adas/Documents/Ayush/dev/straightline_ws/install/examples_tf2_py:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_simple_commander:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/adas/Documents/Ayush/dev/straight_ws/build/tf2 -- -j8 -l8
+[3.030s] [35m[1mScanning dependencies of target tf2[0m
+[3.032s] [35m[1mScanning dependencies of target gtest[0m
+[3.039s] [35m[1mScanning dependencies of target gtest_main[0m
+[3.060s] [  5%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/cache.cpp.o[0m
+[3.065s] [ 11%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/buffer_core.cpp.o[0m
+[3.069s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.086s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.086s] [ 35%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/static_cache.cpp.o[0m
+[3.094s] [ 29%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/time.cpp.o[0m
+[4.570s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.708s] [ 41%] Built target gtest_main
+[6.117s] [ 47%] [32m[1mLinking CXX shared library libtf2.so[0m
+[6.445s] [ 47%] Built target tf2
+[11.322s] [ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.526s] [ 52%] Built target gtest
+[11.604s] [35m[1mScanning dependencies of target test_static_cache_unittest[0m
+[11.620s] [35m[1mScanning dependencies of target test_cache_unittest[0m
+[11.637s] [35m[1mScanning dependencies of target test_simple[0m
+[11.668s] [35m[1mScanning dependencies of target test_time[0m
+[11.698s] [ 58%] [32mBuilding CXX object CMakeFiles/test_simple.dir/test/simple_tf2_core.cpp.o[0m
+[11.704s] [ 64%] [32mBuilding CXX object CMakeFiles/test_cache_unittest.dir/test/cache_unittest.cpp.o[0m
+[11.712s] [ 70%] [32mBuilding CXX object CMakeFiles/test_static_cache_unittest.dir/test/static_cache_test.cpp.o[0m
+[11.782s] [ 76%] [32mBuilding CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o[0m
+[14.118s] [ 82%] [32m[1mLinking CXX executable test_time[0m
+[14.303s] [ 88%] [32m[1mLinking CXX executable test_static_cache_unittest[0m
+[14.596s] [ 88%] Built target test_time
+[14.764s] [ 94%] [32m[1mLinking CXX executable test_cache_unittest[0m
+[14.802s] [100%] [32m[1mLinking CXX executable test_simple[0m
+[14.876s] [100%] Built target test_static_cache_unittest
+[15.139s] [100%] Built target test_cache_unittest
+[15.224s] [100%] Built target test_simple
+[15.259s] Invoked command in '/home/adas/Documents/Ayush/dev/straight_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adas/Documents/Ayush/dev/straightline_ws/install/examples_tf2_py:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_simple_commander:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/adas/Documents/Ayush/dev/straight_ws/build/tf2 -- -j8 -l8
+[15.359s] Invoking command in '/home/adas/Documents/Ayush/dev/straight_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adas/Documents/Ayush/dev/straightline_ws/install/examples_tf2_py:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_simple_commander:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/adas/Documents/Ayush/dev/straight_ws/build/tf2
+[15.384s] -- Install configuration: ""
+[15.390s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/lib/libtf2.so
+[15.397s] -- Set runtime path of "/home/adas/Documents/Ayush/dev/straight_ws/install/tf2/lib/libtf2.so" to ""
+[15.401s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2
+[15.403s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/transform_datatypes.h
+[15.403s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/visibility_control.h
+[15.403s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/convert.h
+[15.403s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/transform_storage.h
+[15.403s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/exceptions.h
+[15.404s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/utils.h
+[15.404s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/time_cache.h
+[15.404s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/impl
+[15.410s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/impl/convert.h
+[15.410s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/impl/utils.h
+[15.410s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/time.h
+[15.410s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/LinearMath
+[15.410s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/LinearMath/Vector3.h
+[15.411s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/LinearMath/Transform.h
+[15.411s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/LinearMath/MinMax.h
+[15.411s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/LinearMath/Quaternion.h
+[15.411s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/LinearMath/Scalar.h
+[15.411s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/LinearMath/Matrix3x3.h
+[15.411s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/LinearMath/QuadWord.h
+[15.411s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/buffer_core.h
+[15.412s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/include/tf2/buffer_core_interface.h
+[15.412s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/environment/library_path.sh
+[15.412s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/environment/library_path.dsv
+[15.412s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/ament_index/resource_index/package_run_dependencies/tf2
+[15.412s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/ament_index/resource_index/parent_prefix_path/tf2
+[15.413s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/environment/ament_prefix_path.sh
+[15.413s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/environment/ament_prefix_path.dsv
+[15.413s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/environment/path.sh
+[15.413s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/environment/path.dsv
+[15.413s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/local_setup.bash
+[15.413s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/local_setup.sh
+[15.414s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/local_setup.zsh
+[15.414s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/local_setup.dsv
+[15.414s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/package.dsv
+[15.415s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/ament_index/resource_index/packages/tf2
+[15.415s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/cmake/tf2Export.cmake
+[15.415s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/cmake/tf2Export-noconfig.cmake
+[15.415s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.415s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.416s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+[15.426s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+[15.426s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/cmake/tf2Config.cmake
+[15.426s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/cmake/tf2Config-version.cmake
+[15.426s] -- Installing: /home/adas/Documents/Ayush/dev/straight_ws/install/tf2/share/tf2/package.xml
+[15.434s] Invoked command in '/home/adas/Documents/Ayush/dev/straight_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adas/Documents/Ayush/dev/straightline_ws/install/examples_tf2_py:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_simple_commander:/home/adas/Documents/Ayush/dev/straightline_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/adas/Documents/Ayush/dev/straight_ws/build/tf2

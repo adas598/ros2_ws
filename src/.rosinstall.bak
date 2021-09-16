@@ -1,0 +1,11 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- other: {local-name: /opt/ros/foxy}
+- git: {local-name: geometry2, uri: 'https://github.com/ros2/geometry2.git', version: foxy}
+- git: {local-name: navigation2, uri: 'https://github.com/ros-planning/navigation2.git',
+    version: foxy-devel}
+- git: {local-name: aws-robomaker-small-warehouse, uri: 'https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git',
+    version: foxy-devel}
