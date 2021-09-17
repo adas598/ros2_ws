@@ -6,6 +6,8 @@ Note: This project works with ROS2 Foxy (Ubuntu 20.04 LTS).
 Clone this GitHub repository in '<your_workspace>/'.
 
 - Install the dependencies for the project.
+ 
+ 
  `rosinstall src/ /opt/ros/foxy/ dependencies.rosinstall`
 
 - Note: If you don't have `rosinstall` installed you can do so by running the following:
